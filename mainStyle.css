@@ -1,0 +1,8 @@
+body {
+  background-color: #d9d9d9;
+}
+
+h1::first-letter {
+  color: #0066ff;
+  font-size: 200%;
+}
