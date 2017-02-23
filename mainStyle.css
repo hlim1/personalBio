@@ -13,17 +13,14 @@ table {
   width: 100%;
   text-align: center;
 }
-
 td {
   border: 1px solid black;
   padding: 5px;
   height: 45px;
 }
-
 tr {
   background-color: #e6f0ff;
 }
-
 th {
   height: 25px;
   background-color: #99c2ff;
@@ -39,8 +36,18 @@ a:visited {
 }
 a:hover {
   color: red;
+  text-decoration: none;
 }
 
+li {
+  margin-bottom: 10px;
+}
+
+dt {
+  font-weight: bold;
+}
+
+/* class */
 .jobTitle {
   font-weight: bold;
   color: blue;
@@ -50,10 +57,11 @@ a:hover {
   font-weight: bold;
 }
 
-li {
-  margin-bottom: 10px;
+.imageRow {
+  padding: 5px;
 }
 
+/* id */
 #logo {
   position: absolute;
   right: 100px;
@@ -64,6 +72,12 @@ li {
   opacity: 0.5;
 }
 
-.imageRow {
-  padding: 5px;
+#csLegend {
+  font-style: italic;
+}
+
+#navigation {
+  position: absolute;
+  right: 15px;
+  top: 10px;
 }
