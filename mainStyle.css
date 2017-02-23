@@ -6,3 +6,64 @@ h1::first-letter {
   color: #0066ff;
   font-size: 200%;
 }
+
+table {
+  border: solid black;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+td {
+  border: 1px solid black;
+  padding: 5px;
+  height: 45px;
+}
+
+tr {
+  background-color: #e6f0ff;
+}
+
+th {
+  height: 25px;
+  background-color: #99c2ff;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+a:link {
+  color: blue;
+}
+a:visited {
+  color: green;
+}
+a:hover {
+  color: red;
+}
+
+.jobTitle {
+  font-weight: bold;
+  color: blue;
+}
+
+.subtitle {
+  font-weight: bold;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+#logo {
+  position: absolute;
+  right: 100px;
+  top: 250px;
+
+  width: 500px;
+
+  opacity: 0.5;
+}
+
+.imageRow {
+  padding: 5px;
+}
